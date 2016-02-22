@@ -1,0 +1,312 @@
+/* Overall Styles */
+body {
+  background-color: #21293F;
+  overflow-x: hidden; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Sharik Sans', serif; }
+
+p, a, ul li {
+  font-family: 'Promixa Nova', sans-serif; }
+
+.link-black {
+  color: #333333; }
+
+.link-white {
+  color: #FFFFFF;
+  font-weight: 600;
+  border: 2px #FFFFFF solid;
+  padding: 2%; }
+
+.link-white:hover {
+  color: #21293F;
+  background-color: #FFFFFF;
+  font-weight: 600;
+  border: 2px #FFFFFF solid;
+  padding: 2%; }
+
+.link-blue {
+  color: #7e96ba; }
+
+label {
+  font-family: 'Promixa Nova', sans-serif; }
+
+.photo-cap {
+  color: #7e96ba;
+  font-size: 14px;
+  font-weight: 600; }
+
+.photo-cap-i {
+  color: #7e96ba;
+  font-size: 14px;
+  font-style: italic; }
+
+/* Global Navigation */
+.utility-nav-wrapper {
+  max-width: 100%;
+  width: 100%; }
+  .utility-nav-wrapper .sub-nav {
+    padding-right: 2%; }
+
+.utility-nav {
+  color: #7e96ba;
+  text-align: right; }
+
+.utility-nav ul li a:hover {
+  color: white; }
+
+/* Photo Gallery */
+.full-Width {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: initial; }
+
+/* Introduction */
+.wrapper-intro {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2% 0;
+  max-width: initial;
+  background-color: #EAE3D4;
+  color: #333333; }
+
+/*Gold to White Gradient*/
+.gradient {
+  background-image: -webkit-gradient(linear, right bottom, left bottom, color-stop(0, #FFFFFF), color-stop(1, #EAD18C));
+  background-image: -o-linear-gradient(left, #FFFFFF 0%, #EAD18C 100%);
+  background-image: -moz-linear-gradient(left, #FFFFFF 0%, #EAD18C 100%);
+  background-image: -webkit-linear-gradient(left, #FFFFFF 0%, #EAD18C 100%);
+  background-image: -ms-linear-gradient(left, #FFFFFF 0%, #EAD18C 100%);
+  background-image: linear-gradient(to left, #FFFFFF 0%, #EAD18C 100%);
+  width: 100%;
+  height: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: initial; }
+
+/* Recent Listing Block */
+.wrapper-listing {
+  background-color: #273C59;
+  padding-top: 2%;
+  padding-bottom: 5%; }
+  .wrapper-listing h2 {
+    color: #FFFFFF; }
+  .wrapper-listing .columns {
+    padding-left: 0;
+    padding-right: 0; }
+
+.listing-card {
+  margin-top: 3%;
+  background-color: #EAE3D4; }
+
+.listing {
+  background-color: #EAE3D4; }
+  .listing p {
+    margin: 0 2%;
+    padding: 2% 2% 0 2%; }
+
+.listing-description {
+  background-color: #21293F;
+  color: #FFFFFF;
+  padding: 0;
+  margin: 0; }
+
+.listing-points p {
+  margin: 0 15% 0 5%;
+  padding: 10px 0; }
+
+.wrap-listing-link {
+  background-color: #181e2e; }
+
+.wrap-listing-link:hover {
+  background-color: #0f131e; }
+
+/*Responsive Card */
+@media only screen and (max-width: 40em) {
+  .listing-card {
+    margin: 0 2%;
+    width: 96%; }
+
+  .listing-points {
+    padding-left: 2%; } }
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  .listing-card {
+    margin: 0 2%;
+    width: 96%; } }
+.home-title {
+  font-size: 24px;
+  color: #273C59;
+  padding-top: 1%;
+  border-bottom: 2px solid #273C59; }
+
+/* Search Homes for Sale & Explore */
+.wrapper-explore {
+  background-color: #21293F;
+  color: #FFFFFF;
+  padding-top: 2%; }
+  .wrapper-explore h3 {
+    color: #FFFFFF; }
+
+.homes-link li a {
+  color: #FFFFFF; }
+.homes-link li a:hover {
+  border-bottom: 2px solid #FFFFFF; }
+
+.explore-link {
+  color: #FFFFFF;
+  border-bottom: 2px solid #FFFFFF; }
+
+.explore-link:hover {
+  color: #FFFFFF;
+  border-bottom: 2px solid #FFFFFF; }
+
+/* Download the App */
+.wrapper-download {
+  background-color: #EAE3D4;
+  padding-top: 2%; }
+  .wrapper-download img {
+    z-index: 9999;
+    height: 80%;
+    width: 80%; }
+
+.break {
+  margin-top: -5%;
+  margin-bottom: -30%; }
+
+.btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #333333;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #333333 2px;
+  text-decoration: none; }
+
+.btn:hover {
+  background: #333333;
+  color: #EAE3D4;
+  text-decoration: none; }
+
+.btn-wrap {
+  margin-top: 3%;
+  margin-bottom: 5%; }
+
+/* Home Worth */
+.wrapper-worth {
+  background-color: #273C59;
+  padding-top: 5%;
+  padding-bottom: 5%; }
+  .wrapper-worth p, .wrapper-worth h2, .wrapper-worth h3, .wrapper-worth h4, .wrapper-worth label {
+    color: #FFFFFF; }
+
+.worth-img {
+  border: 3px solid #FFFFFF; }
+
+.btn-worth {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #FFFFFF;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #FFFFFF 2px;
+  text-decoration: none; }
+
+.btn-worth:hover {
+  background: #FFFFFF;
+  color: #273C59;
+  text-decoration: none; }
+
+/* Contact Form Styles */
+.invisible {
+  display: none; }
+
+/* Footer */
+.wrapper-footer {
+  background-color: #EAE3D4;
+  padding-top: 2%;
+  color: #333333; }
+  .wrapper-footer p, .wrapper-footer ul li {
+    font-size: 14px; }
+
+.sivel-dark {
+  height: 40%;
+  width: 40%; }
+
+.footer-list li a i {
+  color: #333333; }
+
+/* Sub Footer */
+.wrapper-subfooter {
+  background-color: #d9cdb2;
+  color: #917a47;
+  height: 5%; }
+
+/* --------------------------------------- About Page --------------------------------------- */
+.wrapper-location {
+  background-color: #552448;
+  color: #FFFFFF;
+  padding: 5% 0; }
+  .wrapper-location ul {
+    line-height: 200%; }
+  .wrapper-location ul li a:hover {
+    color: #FFFFFF darken, 10%; }
+  .wrapper-location ul li a {
+    color: #FFFFFF; }
+  .wrapper-location h3 {
+    color: #FFFFFF; }
+  .wrapper-location img {
+    border: 3px solid #FFFFFF; }
+
+.secret-sauce {
+  background-color: #EAE3D4;
+  color: #333333;
+  padding: 5% 0; }
+  .secret-sauce h3 {
+    color: #333333; }
+
+/* --------------------------------------- Remarkable Results Page --------------------------------------- */
+.testimonial {
+  background-color: #552448; }
+
+.our-clients {
+  color: #FFFFFF;
+  padding-top: 3%; }
+
+/* --------------------------------------- Single Home Template Page --------------------------------------- */
+.home-detail-wrapper {
+  padding-top: 25px;
+  background-color: #292840;
+  /*$contactdiv*/ }
+
+.home-detail {
+  color: white;
+  /*$alt-fontcolor*/ }
+
+.description-wrapper {
+  background-color: #d9cdb2;
+  /*Tan Div(darken)*/ }
+
+.glance {
+  background-color: #EAE3D4;
+  /*Tan Div*/
+  color: #552448;
+  height: 100%;
+  min-height: 100%; }
+  .glance ul li {
+    margin: 0 0 5% 0; }
+  .glance h4 {
+    color: #552448; }
+
+iframe {
+  width: 100%; }
+
+.bold {
+  font-weight: 600; }
+
+/*# sourceMappingURL=app.css.map */
