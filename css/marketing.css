@@ -14,13 +14,7 @@ body {
     font-size: 13px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-label {
+h1, h2, h3, h4, h5, h6, label {
     color: #34495e;
     font-family: "Gotham", Arial, sans-serif;
 }
@@ -30,6 +24,8 @@ html, button, input, select, textarea, content-head,
     font-family: "Gotham", Arial, sans-serif;
 }
 
+
+
 .pure-img-responsive {
     max-width: 100%;
     height: auto;
@@ -37,6 +33,7 @@ html, button, input, select, textarea, content-head,
 
 .image-border{
   border: 1px solid rgba(0,0,0,0.1);
+  margin: .25%;
 }
 
 .image-border a{
@@ -60,8 +57,6 @@ html, button, input, select, textarea, content-head,
 .is-center {
     text-align: center;
 }
-
-
 
 /*
  * -- PURE FORM STYLES --
@@ -128,6 +123,7 @@ a.pure-button-primary {
     padding-top: 15px;
 }
 
+
 .home-menu .pure-menu-selected a {
     color: white;
 }
@@ -147,17 +143,17 @@ a.pure-button-primary {
 }
 
 
-/*
- * -- SPLASH STYLES --
- * This is the blue top section that appears on the page.
+/* -- SPLASH STYLES --
+ * This is the green to blue gradient top section that appears on the page.
  */
 
 .splash-container {
-  background-image: linear-gradient(90deg, rgb(76, 175, 80) 0%, rgb(41, 128, 185) 100%);
+  background-color: #1D1C21;
+  /*background-image: linear-gradient(90deg, rgb(76, 175, 80) 0%, rgb(41, 128, 185) 100%);
   background-image: -moz-linear-gradient(left, rgb(76, 175, 80) 0%, rgb(41, 128, 185) 100%);
   background-image: -webkit-linear-gradient(left, rgb(76, 175, 80) 0%, rgb(41, 128, 185) 100%);
   background-image: -o-linear-gradient(left, rgb(76, 175, 80) 0%, rgb(41, 128, 185) 100%);
-  background-image: -ms-linear-gradient(left, rgb(76, 175, 80) 0%, rgb(41, 128, 185) 100%);
+  background-image: -ms-linear-gradient(left, rgb(76, 175, 80) 0%, rgb(41, 128, 185) 100%); */
   z-index: 1;
   overflow: hidden;
   width: 100%;
@@ -204,7 +200,7 @@ a.pure-button-primary {
     text-transform: uppercase;
 }
 
-/* This is the main heading that appears on the blue section */
+/* This is the main heading that appears on the  green to blue gradient section */
 .splash-head {
     font-size: 20px;
     font-weight: bold;
@@ -241,9 +237,10 @@ a.pure-button-primary {
 /* This is the class used for the main content headers (<h2>) */
 .content-head {
     font-weight: 400;
-    /*text-transform: uppercase;*/
+    text-transform: uppercase;
     letter-spacing: 0.1em;
     margin: 2em 0 1em;
+    color: #1d1c21;
 }
 
 /* This is a modifier class used when the content-head is inside a ribbon */
@@ -253,7 +250,7 @@ a.pure-button-primary {
 
 /* This is the class used for the content sub-headers (<h3>) */
 .content-subhead {
-    color: #1f8dd6;
+    color: #1d1c21;
 }
     .content-subhead i {
         margin-right: 7px;
@@ -262,12 +259,13 @@ a.pure-button-primary {
 /* This is the class used for the dark-background areas. */
 .ribbon {
     background: #2d3e50;
-    color: #aaa;
+    color: #1d1c21;
 }
 
 /* This is the class used for the footer */
 .footer {
-    background: #111;
+    background: #1D1C21;
+    color: #7f8c8d;
 }
 
 /*
@@ -320,10 +318,10 @@ a.pure-button-primary {
 }
 
 /*
- * -- DESKTOP (AND UP) MEDIA QUERIES --
- * On desktops and other large devices, we want to over-ride some
- * of the mobile and tablet styles.
- */
+* -- DESKTOP (AND UP) MEDIA QUERIES --
+* On desktops and other large devices, we want to over-ride some
+* of the mobile and tablet styles.
+*/
 @media (min-width: 78em) {
     /* We increase the header font size even more */
     .splash-head {
@@ -337,4 +335,6 @@ a.pure-button-primary {
 }
 
 
-/* Work Images */
+/*
+* -- WORK SECTION --
+*/
