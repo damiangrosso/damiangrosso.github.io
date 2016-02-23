@@ -35,6 +35,15 @@ html, button, input, select, textarea, content-head,
     height: auto;
 }
 
+.image-border{
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+.image-border a{
+  color: #7f8c8d;
+  text-decoration: underline;
+}
+
 /*
  * -- LAYOUT STYLES --
  * These are some useful classes which I will need
