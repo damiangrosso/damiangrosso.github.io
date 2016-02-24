@@ -187,14 +187,18 @@ a.pure-button-primary {
 }
 
 .splash {
-    /* absolute center .splash within .splash-container */
-    width: 80%;
-    height: 50%;
-    margin: auto;
-    position: absolute;
-    top: 200px; left: 0; bottom: 0; right: 0;
-    text-align: center;
-    text-transform: uppercase;
+  /* absolute center .splash within .splash-container */
+  width: 80%;
+  height: 50%;
+  margin: auto;
+  position: absolute;
+  top: 200px; left: 0; bottom: 0; right: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.splash a i:hover {
+  color: #FF6F4F;
 }
 
 /* This is the main heading that appears on the  green to blue gradient section */
@@ -255,8 +259,19 @@ a.pure-button-primary {
 
 /* This is the class used for the dark-background areas. */
 .ribbon {
-    background: #2d3e50;
-    color: #1d1c21;
+    background: #1D1C21;
+    color: #efefef;
+    font-weight: normal;
+}
+
+.ribbon a{
+    color: #efefef;
+    text-decoration: none;
+}
+
+.ribbon a:hover{
+    color: #FF6F4F;
+    text-decoration: underline;
 }
 
 /* This is the class used for the footer */
@@ -331,15 +346,72 @@ a.pure-button-primary {
   width: auto;
 }
 
+/*
 @media (max-width: 490px) {
     .pure-menu-list{
       clear: both;
       float: left;
       left: 15%;
     }
-}
+}*/
 
 
 /*
 * -- WORK SECTION --
 */
+
+.work article {
+  width: 50%;
+  float: left;
+  height: 18.750em;
+  padding-top: 5em;
+}
+
+.work article h1, .work article h2, .work article a, .work article p {
+  color: white;
+}
+
+#top-left {
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, .75),
+    rgba(0, 0, 0, .75)
+    ),
+  url("../img/love-hurts.jpg");
+  background-size: cover;
+  background-position: bottom left;
+  overflow: hidden;
+}
+
+#top-right {
+  background-image: url("../img/unleashed.jpg");
+  background-size: cover;
+  background-position: center right;
+  overflow: hidden;
+}
+
+#bottom-left {
+  background-image: url("../img/unleashed.jpg");
+  background-size: cover;
+  background-position: center right;
+  overflow: hidden;
+}
+
+#bottom-right {
+  background-image: url("../img/love-hurts.jpg");
+  background-size: cover;
+  background-position: center right;
+  overflow: hidden;
+}
+
+@media (max-width: 800px) {
+  .work article {
+    width: 100%;
+    float: left;
+    height: 18.750em;
+    padding-top: 5em;
+  }
+  .work article h1, .work article h2, .work article a, .work article p {
+    color: white;
+  }
+}
