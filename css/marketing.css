@@ -24,8 +24,6 @@ html, button, input, select, textarea, content-head,
     font-family: "Gotham", Arial, sans-serif;
 }
 
-
-
 .pure-img-responsive {
     max-width: 100%;
     height: auto;
@@ -33,7 +31,6 @@ html, button, input, select, textarea, content-head,
 
 .image-border{
   border: 1px solid rgba(0,0,0,0.1);
-  margin: .25%;
 }
 
 .image-border a{
@@ -332,6 +329,14 @@ a.pure-button-primary {
 .header img{
   height: 40px;
   width: auto;
+}
+
+@media (max-width: 490px) {
+    .pure-menu-list{
+      clear: both;
+      float: left;
+      left: 15%;
+    }
 }
 
 
