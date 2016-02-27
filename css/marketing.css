@@ -19,9 +19,14 @@ h1, h2, h3, h4, h5, h6, label {
   font-family: "Gotham", Arial, sans-serif;
 }
 
-html, button, input, select, textarea, content-head,
+html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
     font-family: "Gotham", Arial, sans-serif;
+}
+
+p,
+.pure-g [class *= "pure-u"] {
+    font-family: "Open Sans", Arial, sans-serif;
 }
 
 .pure-img-responsive {
@@ -237,7 +242,6 @@ a.pure-button-primary {
 /* This is the class used for the main content headers (<h2>) */
 .content-head {
   font-weight: 400;
-  text-transform: uppercase;
   letter-spacing: 0.1em;
   margin: 2em 0 1em;
   color: #1d1c21;
@@ -278,6 +282,7 @@ a.pure-button-primary {
 .footer {
   background: #1D1C21;
   color: #7f8c8d;
+  margin-top: 5%;
 }
 
 .footer i {
@@ -368,7 +373,8 @@ a.pure-button-primary {
 */
 
 .nav-clearance{
-  margin-top: 5%;
+  margin-top: 7%;
+  margin-bottom: 2%;
 }
 
 .about-me-img{
@@ -381,19 +387,46 @@ a.pure-button-primary {
   margin-right: auto;
 }
 
+.social-media ul{
+  list-style-type: none;
+  margin-left: 50%;
+  margin-right: auto;
+}
+
+.social-media li{
+  display: inline;
+}
+
+.social-media li a{
+  color: #333333;
+  margin: 0 3%;
+}
+
 @media (max-width: 768px) {
   .nav-clearance{
-    margin-top: 10%;
+    margin-top: 15%;
   }
 }
 
 @media (max-width: 445px) {
   .nav-clearance{
-    margin-top: 20%;
+    margin-top: 25%;
   }
   .about-me-img{
     width: 100%;
     margin-left: 0;
   }
-
+  .about-me-section{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 0 10px;
+  }
+  .social-media{
+    width: 100%;
+  }
+  .social-media li a{
+    color: #333333;
+    margin: 0 5%;
+  }
 }
