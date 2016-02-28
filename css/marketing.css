@@ -243,7 +243,7 @@ a.pure-button-primary {
 .content-head {
   font-weight: 400;
   letter-spacing: 0.1em;
-  margin: 2em 0 1em;
+  margin: 2em 1em 1em;
   color: #1d1c21;
 }
 
@@ -365,6 +365,29 @@ a.pure-button-primary {
 /*
 * -- WORK SECTION --
 */
+
+.indiv-work{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.first-div{
+
+}
+
+.second-div{
+  margin-left: 20px;
+}
+
+hr{
+  margin: 5% 0;
+}
+
+@media (max-width: 767px) {
+  .second-div{
+    margin-left: 0px;
+  }
+}
 
 
 
