@@ -106,7 +106,7 @@ a.pure-button-primary {
   padding: 0.5em;
   text-align: center;
   box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
-  opacity: 0.97;
+  opacity: 1;
 }
 .home-menu {
   background: white;
@@ -453,3 +453,13 @@ hr{
     margin: 0 5%;
   }
 }
+
+
+/*
+* -- INDIVIDUAL WORK STYLES --
+*/
+
+/*
+.first-div{
+  background-color: rgb(153, 252, 161);
+}*/
