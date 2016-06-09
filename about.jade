@@ -1,0 +1,48 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    title Damian Grosso | Welcome
+    meta(name='viewport', content='width=device-width, initial-scale=1', shrink-to-fit='no')
+    meta(http-equiv='x-ua-compatible', content='ie=edge')
+    meta(name='theme-color', content='#083358')
+    // Chrome, Firefox OS, Opera and Vivaldi
+    meta(name='theme-color', content='#083358')
+    // Windows Phone
+    meta(name='msapplication-navbutton-color', content='#083358')
+    // iOS Safari
+    meta(name='apple-mobile-web-app-status-bar-style', content='#083358')
+
+
+    link(rel='icon', type='image/png', href="img/favicon.ico")
+
+    <!-- Bootstrap CSS -->
+    link(rel="stylesheet", href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css', integrity='sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd', crossorigin='anonymous')
+    link(rel="stylesheet", href="css/styles.css")
+    
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css")
+    script(src='https://use.fontawesome.com/1c5b6b604e.js')
+
+    link(rel="stylesheet", href="css/font-awesome-animation.min.css")
+    
+    script(src='js/responsive-nav.js')
+
+  
+  body
+    include ./includes/navigation.jade
+    
+    div.about-wrap
+      div.about-pic
+      div.about-content
+        h1 Damian Grosso
+        p I recently graduated from Lebanon Valley College with a degree in  Digital Communications and a concentration in User Experience. While I studied both traditional "tried and true" digital methods and emergering media techniques, I still have a focus in UX and front-end web development. 
+        p When I'm not working or learning with Treehouse, I am either brewing craft beer, traveling, working out, or just catching up with some shows on Netflix.
+        p If you would like to get in contact with me you can either email me or follow me on my various social media channels.
+
+
+    
+    include ./includes/footer.jade
+    <!-- jQuery first, then Bootstrap JS. -->
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js', integrity='sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7', crossorigin='anonymous')
+    include ./includes/navigation-js.jade
