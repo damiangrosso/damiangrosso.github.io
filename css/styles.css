@@ -316,7 +316,7 @@ img {
 }
 
 .header {
-  background-image: url("https://static.pexels.com/photos/94286/pexels-photo-94286.jpeg");
+  background-image: url("https://static.pexels.com/photos/34676/pexels-photo.jpg");
   height: 100vh;
   margin-bottom: 5px;
   background-size: cover;
@@ -649,7 +649,7 @@ hr {
 }
 
 .about-pic {
-  background-image: url("https://static.pexels.com/photos/94286/pexels-photo-94286.jpeg");
+  background-image: url("https://static.pexels.com/photos/5891/bed-design-decoration-interior.jpg");
   background-size: cover;
   height: 100vh;
   -webkit-flex: 1;
@@ -685,6 +685,9 @@ hr {
   font-size: 500%;
   text-transform: uppercase;
   margin-top: 10%;
+  color: #068c57;
+  font-weight: 900;
+  text-shadow: 1px 1px 1px #26e298;
 }
 
 .about-content p {
@@ -693,6 +696,16 @@ hr {
 
 .about-content p:not(.sub-line) {
   margin-top: 5%;
+}
+
+.about-content a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.about-content a:hover {
+  color: #e4e4e4;
 }
 
 /* --- MEDIA QUERIES --- */
