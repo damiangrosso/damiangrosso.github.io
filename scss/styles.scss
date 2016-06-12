@@ -42,7 +42,7 @@ img{
 }
 
 .header{
-  background-image: url('https://static.pexels.com/photos/34676/pexels-photo.jpg');
+  background-image: url('../img/header.jpg');
   height: 100vh;
   margin-bottom: 5px;
   background-size: cover;
@@ -77,6 +77,7 @@ img{
 
 footer{
   background-color: #272727;
+    background-image: url("../img/concrete-wall.png");
   color: #e4e4e4;
   padding-top: 15px;
   margin-top: 50px;
@@ -357,7 +358,7 @@ hr{
 }
 
 .about-pic{
-  background-image: url('https://static.pexels.com/photos/5891/bed-design-decoration-interior.jpg');
+  background-image: url('../img/cover.jpg');
   background-size: cover;
   height: 100vh;
   flex: 1;
@@ -367,6 +368,8 @@ hr{
 
 .about-content{
   background-color: #00B16A;
+  background-image: url("../img/concrete-wall.png");
+  background-repeat: repeat;
   color: white;
   height: 100vh;
   flex: 1;
