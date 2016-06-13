@@ -299,6 +299,10 @@ img {
   height: auto;
 }
 
+iframe {
+  max-width: 100%;
+}
+
 .text-muted {
   font-size: 14px;
 }
@@ -726,7 +730,7 @@ hr {
 
 @media (max-width: 743px) {
   .header {
-    background-image: url("https://static.pexels.com/photos/94286/pexels-photo-94286.jpeg");
+    background-image: url("../img/header.jpg");
     height: 100vh;
     margin-bottom: 5px;
     background-size: cover;
@@ -778,5 +782,14 @@ hr {
     font-size: 375%;
     text-shadow: 1px 1px 5px #000;
     margin-bottom: 0;
+  }
+}
+
+@media (max-width: 730px) {
+  .about-pic {
+    display: none;
+  }
+  .about-content {
+    width: 100vw;
   }
 }
