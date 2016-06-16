@@ -1,30 +1,6 @@
 doctype html
 html
-  head
-    meta(charset="utf-8")
-    title Damian Grosso | Discover & Chill
-    meta(name='viewport', content='width=device-width, initial-scale=1', shrink-to-fit='no')
-    meta(http-equiv='x-ua-compatible', content='ie=edge')
-    meta(name='theme-color', content='#083358')
-    // Chrome, Firefox OS, Opera and Vivaldi
-    meta(name='theme-color', content='#083358')
-    // Windows Phone
-    meta(name='msapplication-navbutton-color', content='#083358')
-    // iOS Safari
-    meta(name='apple-mobile-web-app-status-bar-style', content='#083358')
-
-
-    link(rel='icon', type='image/png', href="img/favicon.ico")
-
-    <!-- Bootstrap CSS -->
-    link(rel="stylesheet", href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css', integrity='sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd', crossorigin='anonymous')
-    link(rel="stylesheet", href="css/styles.css")
-    
-    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css")
-    link(rel="stylesheet", href="css/font-awesome-animation.min.css")
-    
-    script(src='js/responsive-nav.js') 
-
+  include ./includes/head.jade 
   
   body
     include ./includes/navigation.jade
@@ -52,46 +28,46 @@ html
       
       hr       
     div.container
-      div.row
+      div.row.dc
         div.col-lg-8.col-lg-offset-2
           h2.text-xs-center Wireframes
         div.row.logo-box
-          div.col-lg-4
+          div.col-lg-4.col-md-6
             img(src='img/dc/homepage.PNG')
-          div.col-lg-4
+          div.col-lg-4.col-md-6
             img(src='img/dc/discover.PNG')
-          div.col-lg-4
+          div.col-lg-4.col-md-6
             img(src='img/dc/individual_movie.PNG')
       
       hr
-      div.row
+      div.row.dc
         div.col-lg-8.col-lg-offset-2
           h2.text-xs-center User Interface
         div.row.logo-box
-          div.col-lg-4
+          div.col-lg-4.col-md-6
             img(src='img/dc/home_ui.PNG')
-          div.col-lg-4
+          div.col-lg-4.col-md-6
             img(src='img/dc/profile.PNG')
-          div.col-lg-4
+          div.col-lg-4.col-md-6
             img(src='img/dc/individual_movie_ui.PNG')
       
       hr
-      div.row  
+      div.row.dc  
         div.col-lg-8.col-lg-offset-2
           h2.text-xs-center Branding
         div.row.logo-box
-          div.col-lg-4
+          div.col-lg-4.col-md-6
             img(src='img/dc/dcBranding.png')
-          div.col-lg-4
+          div.col-lg-4.col-md-6
             img(src='img/dc/dcBranding2.png')
-          div.col-lg-4
+          div.col-lg-4.col-md-6
             img(src='img/dc/dcBranding3.png')
       
       hr
       div.row
         div.col-lg-8.col-lg-offset-2
           h2.text-xs-center Promotional Video
-        div.col-lg-8.col-lg-offset-3 
+        div.col-lg-8.col-lg-offset-3.col-md-12.col-md-offset-1
           iframe(width='560', height='315', src='https://www.youtube.com/embed/C_8UTdjhnzU', frameborder='0', allowfullscreen='')
     
     include ./includes/footer.jade
