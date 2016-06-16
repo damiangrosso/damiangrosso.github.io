@@ -283,7 +283,7 @@ header {
 body {
   padding: 0;
   margin: 0;
-  background-color: #f6f6f6;
+  background-color: #ffffff;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -291,7 +291,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 img {
@@ -642,8 +642,11 @@ hr {
 }
 
 /* --- DC PAGE --- */
-.dc {
-  margin-bottom: 25px;
+.dc img {
+  width: 75%;
+  height: auto;
+  margin-left: 50px;
+  margin-bottom: 20px;
 }
 
 /* --- ABOUT PAGE -- */
