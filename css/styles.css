@@ -284,6 +284,7 @@ body {
   padding: 0;
   margin: 0;
   background-color: #ffffff;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -367,7 +368,6 @@ footer {
   background-image: url("../img/concrete-wall.png");
   color: #e4e4e4;
   padding-top: 15px;
-  margin-top: 50px;
 }
 
 footer .fa {
@@ -563,7 +563,7 @@ footer a:hover {
 }
 
 .work-info .work-title {
-  color: #05b616;
+  color: #333333;
   font-weight: 700;
   font-size: 0.875em;
   margin: 0;
@@ -604,6 +604,151 @@ hr {
   margin: 500px;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+.container-fluid .col-lg-6, .container-fluid .col-md-12 {
+  padding: 0;
+}
+
+/* --- NEW HOLLAND -- */
+.nh-iphone {
+  height: 100vh;
+  width: 50vw;
+  width: auto;
+  background-image: url("../img/new-holland/NH_Home_MU.png");
+  background-size: cover;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nh-iphone2 {
+  background-image: url("../img/new-holland/NH_Menu_MU.png");
+  background-size: cover;
+  height: 100vh;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-size: cover;
+}
+
+.nh-iphone3 {
+  height: 100vh;
+  width: auto;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-image: url("../img/new-holland/NH_Item_MU.png");
+  background-size: cover;
+}
+
+.nh-text {
+  background-color: #233B5D;
+  text-align: center;
+  color: #ffffff;
+  height: 50vh;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding-top: 5%;
+}
+
+/* -- CLARITY -- */
+.cl-text {
+  background-color: #482B5A;
+  text-align: center;
+  color: #ffffff;
+  height: 50vh;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding-top: 5%;
+}
+
+.cl-iphone2 {
+  background-image: url("../img/clarity/clarity_forms.png");
+  background-size: cover;
+  height: 100vh;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-size: cover;
+}
+
+.cl-iphone3 {
+  height: 100vh;
+  width: auto;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-image: url("../img/clarity/clarity_about.png");
+  background-size: cover;
+}
+
+@media (max-width: 460px) {
+  .cl-text {
+    background-color: #482B5A;
+    text-align: center;
+    color: #ffffff;
+    height: 65vh;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding-top: 5%;
+  }
+}
+
+/* --- Haverford Reserve -- */
+.hr-text {
+  background-color: #5B877A;
+  text-align: center;
+  color: #ffffff;
+  height: 65vh;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding-top: 5%;
+}
+
+.hr-wireframe {
+  background-color: #306B59;
+  text-align: center;
+  color: #ffffff;
+  height: 30vh;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding-top: 5%;
+}
+
+.hr-wireframe a {
+  color: #ffffff;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 472px) {
+  .hr-text {
+    height: 88vh;
+  }
+}
+
 /* --- LOGOS PAGE --- */
 .logo-box h3 {
   text-align: center;
@@ -620,52 +765,104 @@ hr {
   box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15);
 }
 
+.silience {
+  width: 35vw;
+}
+
+.fourblessing {
+  width: 45vw;
+}
+
+.mha {
+  width: 20vw;
+}
+
+.hbg {
+  width: 28.25vw;
+}
+
+.rocca {
+  width: 34.25vw;
+}
+
+.bryn {
+  width: 36.25vw;
+}
+
+.tony {
+  width: 43vw;
+}
+
+.learn {
+  width: 33vw;
+}
+
+.he {
+  width: 23vw;
+}
+
+@media (max-width: 825px) {
+  .silience {
+    width: 100vw;
+  }
+  .fourblessing {
+    width: 50vw;
+  }
+  .mha {
+    width: 20vw;
+  }
+  .hbg {
+    width: 28.25vw;
+  }
+  .rocca {
+    width: 34.25vw;
+  }
+  .bryn {
+    width: 36.25vw;
+  }
+  .tony {
+    width: 43vw;
+  }
+  .learn {
+    width: 33vw;
+  }
+  .he {
+    width: 23vw;
+  }
+}
+
 /* --- SIVEL LUXURY GROUP PAGE --- */
-.sivel-break {
-  background-color: white;
-  margin: 35px 0;
-  padding: 20px 0;
+.slg-text {
+  background-color: #273C59;
+  text-align: center;
+  color: #ffffff;
+  height: 55vh;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding-top: 5%;
+  margin-bottom: -50px;
 }
 
-.sivel-link {
-  font-weight: bold;
-  font-size: 120%;
-}
-
-.sivel-link a {
-  text-decoration: none;
-  color: #05b616;
-}
-
-/* --- COMMONWEALTH PAGE -- */
-.image-space {
-  margin-bottom: 25px;
-}
-
-/* --- DC PAGE --- */
-.dc img {
-  width: 75%;
-  height: auto;
-  margin-left: 50px;
-  margin-bottom: 20px;
+@media (max-width: 460px) {
+  .slg-text {
+    height: 65vh;
+  }
 }
 
 /* --- ABOUT PAGE -- */
-.about-wrap {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .about-pic {
-  background-image: url("../img/cover.jpg");
+  background-image: url("../img/berlin.png");
   background-size: cover;
   height: 100vh;
   -webkit-flex: 1;
       -ms-flex: 1;
           flex: 1;
   padding: 1rem;
-  margin-bottom: -50px;
+}
+
+.about-pic p {
+  max-width: 800px;
 }
 
 .about-content {
@@ -678,7 +875,6 @@ hr {
       -ms-flex: 1;
           flex: 1;
   padding: 1rem;
-  margin-bottom: -50px;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
