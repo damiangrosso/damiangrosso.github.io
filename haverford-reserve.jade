@@ -1,0 +1,60 @@
+doctype html
+html
+  include ./includes/head.jade  
+  
+  body
+    include ./includes/navigation.jade
+    
+    div.container.work-info
+      div.row
+        div.col-lg-12
+          h1 The Haverford Reserve
+      div.row
+        div.col-lg-6
+          p This was the first project that I worked on while interning with Shamlian Creative in Media, Pa. I was tasked with creating the wireframes and assuring the proper user experience for the intended demographic. The Haverford Reserve is a community of custom built homes on the main line near Philadelphia, Pa.  
+        div.col-lg-6
+          div.row
+            div.col-lg-6
+              p.work-title Team
+              p Shamliam Creative
+              
+              p.work-title.lower Timeline
+              p June 2015 - Aug. 2015
+            
+            div.col-lg-6
+              p.work-title What I Did
+              p User Experience Design
+            
+              p.work-title.lower Live Site 
+              p
+                a(href='http://haverfordreserve.com/home', target='blank', data-scroll='') Click Here!
+      
+    hr       
+    div.container
+      div.row
+        div.col-lg-10.col-lg-offset-1
+          img(src='img/Haverford/hr_laptop.png')
+        
+    div.hr-text
+      div.row
+        div.col-lg-6.col-lg-offset-3
+          h1 UX Design
+          p I was tasked to begin this project by developing a persona of the intended buyers of the home. After the persona was developed I started wireframing possible solutions on how to persuade those of the certain demographic to purchase million dollar, custom homes. After much trial and error on the wireframes, I decided that showing a story of the product, taking the users through an array of options that could be chosen was the best possible solutions. It was determined that the intended buyers would be invested into the story because they would be so invested in the homes. After the wireframes were completed I passed them off to the senior designer where he crafted a beautiful web and mobile experience for potential buyers.  
+          p ...
+    
+    div.hr-wireframe
+      div.row
+        div.col-lg-12
+          h2 Wireframes
+          p
+            a(href='pdf/HaverfordResserve_Wireframes1.pdf', target='blank',) Home | Experiences | Residences
+        div.col-lg-12
+          p 
+            a(href='pdf/HaverfordResserve_Wireframes2.pdf', target='blank',) Just for You | News
+      
+
+    include ./includes/footer.jade
+    <!-- jQuery first, then Bootstrap JS. -->
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js', integrity='sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7', crossorigin='anonymous')
+    include ./includes/navigation-js.jade

@@ -1,0 +1,64 @@
+doctype html
+html
+  include ./includes/head.jade  
+  
+  body
+    include ./includes/navigation.jade
+    
+    div.container.work-info
+      div.row
+        div.col-lg-12
+          h1 Clarity Refractive
+      div.row
+        div.col-lg-6
+          p This is another mobile user interface project that I completed with interning at Pipeline Interactive. Clarity Refractive is New York Metro Area’s leading lasik surgery practice. They are dedicated to delivering the best eye care solutions in the area.  
+        div.col-lg-6
+          div.row
+            div.col-lg-6
+              p.work-title Team
+              p Pipeline Interactive
+              
+              p.work-title.lower Timeline
+              p Oct. 2015 - November 2015
+            
+            div.col-lg-6
+              p.work-title What I Did
+              p User Experience Design
+              p Mobile Web Design
+            
+              p.work-title.lower Live Site 
+              p
+                a(href='http://www.clarityrefractive.com/', target='blank', data-scroll='') Click Here!
+      
+    hr       
+    div.container
+      div.row
+        div.col-lg-10.col-lg-offset-1
+          img(src='img/clarity/clarity_laptop.png')
+
+
+    div
+      img(src='img/clarity/clarity_home.png')
+    
+    div.container-fluid
+      div.row.iphone
+        div.col-lg-6.col-sm-12
+          div
+            img(src="img/clarity/clarity_about.png")
+        div.col-lg-6.col-sm-12
+          div
+            img(src="img/clarity/clarity_forms.png") 
+
+        
+    div.cl-text
+      div.row
+        div.col-lg-6.col-lg-offset-3
+          h1 IxA
+          p This project is very similar to the New Holland Country Store in which I designed a mobile user interface based off of the pre existing desktop experience. When given this project there were a few issues that needed to be addressed. The use of drop downs around the site was an idea that I conjured up as a way to reduce the kinematic load on the user while still having all the vital information on the site. This practice is best seen on the home and forms page.   
+          p ...
+          
+    include ./includes/footer.jade
+    <!-- jQuery first, then Bootstrap JS. -->
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js', integrity='sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7', crossorigin='anonymous')
+    include ./includes/navigation-js.jade

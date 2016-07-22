@@ -1,0 +1,63 @@
+doctype html
+html
+  include ./includes/head.jade  
+  
+  body
+    include ./includes/navigation.jade
+    
+    div.container.work-info
+      div.row
+        div.col-lg-12
+          h1 New Holland Country Store
+      div.row
+        div.col-lg-6
+          p While interning at Pipeline Interactive I was tasked with designing the mobile user interface based off of the pre existing desktop experience. The New Holland Country Store is a one stop shop for all New Holland officially licensed merchandise. They sell all branded material ranging from hats and t shirts to home decor and everything in between.   
+        div.col-lg-6
+          div.row
+            div.col-lg-6
+              p.work-title Team
+              p Pipeline Interactive
+              
+              p.work-title.lower Timeline
+              p Oct. 2015 - November 2015
+            
+            div.col-lg-6
+              p.work-title What I Did
+              p User Experience Design
+              p Mobile Web Design
+            
+              p.work-title.lower Live Site 
+              p
+                a(href='http://www.newhollandcountry.com/', target='blank', data-scroll='') Click Here!
+      
+    hr       
+    div.container
+      div.row
+        div.col-lg-10.col-lg-offset-1
+          img(src='img/new-holland/NH_Desk_MU.png')
+
+
+    div
+      img(src='img/new-holland/NH_Home_MU.png')
+    
+    div.container-fluid
+      div.row.iphone
+        div.col-lg-6.col-sm-12
+          div
+            img(src="img/new-holland/NH_Menu_MU.png")
+        div.col-lg-6.col-sm-12
+          div
+            img(src="img/new-holland/NH_Item_MU.png")
+                    
+    div.nh-text
+      div.row
+        div.col-lg-6.col-lg-offset-3
+          h1 IxA
+          p While a pre existing desktop experienced already existed my job was more based around a rearrangement of design elements rather than designing the interface from scratch. The information architecture was still a heavy task by taking a full ecommerce solution and sizing it down to appear within brand guidelines on a mobile setting.
+          p ...
+          
+    include ./includes/footer.jade
+    <!-- jQuery first, then Bootstrap JS. -->
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js', integrity='sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7', crossorigin='anonymous')
+    include ./includes/navigation-js.jade
