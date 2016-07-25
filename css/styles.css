@@ -853,12 +853,32 @@ hr {
 /* --- ABOUT PAGE -- */
 .about-pic {
   background-image: url("../img/berlin.png");
-  background-size: cover;
   height: 100vh;
-  -webkit-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  padding: 1rem;
+  margin-bottom: 5px;
+  background-size: cover;
+  color: #ffffff;
+  /*To center the text */
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-pic h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 500%;
+  /* 350% lines the h1 and h4 tags up perfectly */
+  text-shadow: 1px 1px 5px #000;
+  margin-bottom: 0;
 }
 
 .about-pic p {
@@ -976,7 +996,7 @@ hr {
 }
 
 @media (max-width: 380px) {
-  .header h1 {
+  .header h1, .about-pic h1 {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 375%;
@@ -986,9 +1006,6 @@ hr {
 }
 
 @media (max-width: 730px) {
-  .about-pic {
-    display: none;
-  }
   .about-content {
     width: 100vw;
   }
