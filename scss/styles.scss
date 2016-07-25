@@ -10,6 +10,7 @@ body{
   padding: 0;
   margin: 0;
   background-color: $white;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -79,12 +80,13 @@ iframe{
   margin: 20px 0;
 }
 
+
 footer{
   background-color: #272727;
-    background-image: url("../img/concrete-wall.png");
+  background-image: url("../img/concrete-wall.png");
   color: #e4e4e4;
   padding-top: 15px;
-  margin-top: 50px;
+  //margin-top: 50px;
   .fa {
     background: #1d1c1c;
     background:rgba(0,0,0,0.4);
@@ -273,7 +275,7 @@ footer{
     line-height: 1.75;
   }
   .work-title{
-    color: $alien;
+    color: $fontdark;
     font-weight: 700;
     font-size: 0.875em;
     margin: 0;
@@ -314,6 +316,124 @@ hr{
   margin: 500px;
 }
 
+.text-center{
+  text-align: center;
+}
+
+.container-fluid{
+  padding: 0;
+  margin: 0;
+  .col-lg-6, .col-md-12{
+    padding: 0;
+  }
+}
+
+
+/* --- NEW HOLLAND -- */
+.nh-iphone{
+  height: 100vh;
+  width: 50vw;
+  width: auto;
+  background-image: url("../img/new-holland/NH_Home_MU.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nh-iphone2{
+  background-image: url("../img/new-holland/NH_Menu_MU.png");
+  background-size: cover;
+  height: 100vh;
+  flex: 1;
+  background-size: cover;
+}
+
+.nh-iphone3{
+  height: 100vh;
+  width: auto;
+  flex: 1;
+  background-image: url("../img/new-holland/NH_Item_MU.png");
+  background-size: cover;
+}
+
+.nh-text{
+  background-color: #233B5D;
+  text-align: center;
+  color: $white;
+  height: 50vh;
+  flex: 1;
+  padding-top: 5%;
+}
+
+/* -- CLARITY -- */
+.cl-text{
+  background-color: #482B5A;
+  text-align: center;
+  color: $white;
+  height: 50vh;
+  flex: 1;
+  padding-top: 5%;
+}
+.cl-iphone2{
+  background-image: url("../img/clarity/clarity_forms.png");
+  background-size: cover;
+  height: 100vh;
+  flex: 1;
+  background-size: cover;
+}
+
+.cl-iphone3{
+  height: 100vh;
+  width: auto;
+  flex: 1;
+  background-image: url("../img/clarity/clarity_about.png");
+  background-size: cover;
+}
+
+@media (max-width: 460px) {
+  .cl-text{
+    background-color: #482B5A;
+    text-align: center;
+    color: $white;
+    height: 65vh;
+    flex: 1;
+    padding-top: 5%;
+  }
+}
+
+/* --- Haverford Reserve -- */
+.hr-text{
+  background-color: #5B877A;
+  text-align: center;
+  color: $white;
+  height: 65vh;
+  flex: 1;
+  padding-top: 5%;
+}
+
+.hr-wireframe{
+  background-color: #306B59;
+  text-align: center;
+  color: $white;
+  height: 30vh;
+  flex: 1;
+  padding-top: 5%;
+  a{
+    color: $white;
+    font-weight: 700;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 472px) {
+  .hr-text{
+    height: 88vh;
+  }
+}
+
+
 /* --- LOGOS PAGE --- */
 .logo-box{
   h3{
@@ -330,50 +450,88 @@ hr{
   }
 }
 
+.silience{ width: 35vw; }
+
+.fourblessing{ width: 45vw; }
+
+.mha{ width: 20vw; }
+
+.hbg{ width: 28.25vw; }
+
+.rocca{ width: 34.25vw; }
+
+.bryn{ width: 36.25vw; }
+
+.tony{ width: 43vw; }
+
+.learn{ width: 33vw; }
+
+.he{ width: 23vw; }
+
+@media (max-width: 825px) {
+
+  .silience{ width: 100vw; }
+
+  .fourblessing{ width: 50vw; }
+
+  .mha{ width: 20vw; }
+
+  .hbg{ width: 28.25vw; }
+
+  .rocca{ width: 34.25vw; }
+
+  .bryn{ width: 36.25vw; }
+
+  .tony{ width: 43vw; }
+
+  .learn{ width: 33vw; }
+
+  .he{ width: 23vw; }
+}
+
+
 
 /* --- SIVEL LUXURY GROUP PAGE --- */
-.sivel-break{
-  background-color: white;
-  margin: 35px 0;
-  padding: 20px 0;
+.slg-text{
+  background-color: #273C59;
+  text-align: center;
+  color: $white;
+  height: 55vh;
+  flex: 1;
+  padding-top: 5%;
+  margin-bottom: -50px;
 }
 
-.sivel-link{
-  font-weight: bold;
-  font-size: 120%;
-  a{
-    text-decoration: none;
-    color: $alien;
-  }
-}
-/* --- COMMONWEALTH PAGE -- */
-.image-space{
-  margin-bottom: 25px;
-}
-
-/* --- DC PAGE --- */
-.dc{
-  img{
-    width: 75%;
-    height: auto;
-    margin-left: 50px;
-    margin-bottom: 20px;
+@media (max-width: 460px) {
+  .slg-text{
+    height: 65vh;
   }
 }
 
 /* --- ABOUT PAGE -- */
 
-.about-wrap {
-  display: flex;
-}
-
 .about-pic{
-  background-image: url('../img/cover.jpg');
-  background-size: cover;
+  background-image: url('../img/berlin.png');
   height: 100vh;
-  flex: 1;
-  padding: 1rem;
-  margin-bottom: -50px;
+  margin-bottom: 5px;
+  background-size: cover;
+  color: $white;
+  /*To center the text */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 500%; /* 350% lines the h1 and h4 tags up perfectly */
+    text-shadow: 1px 1px 5px #000;
+    margin-bottom: 0;
+  }
+  p{
+    max-width: 800px;
+  }
 }
 
 .about-content{
@@ -384,7 +542,6 @@ hr{
   height: 100vh;
   flex: 1;
   padding: 1rem;
-  margin-bottom: -50px;
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -472,7 +629,7 @@ hr{
 }
 
 @media (max-width: 380px) {
-  .header h1 {
+  .header h1, .about-pic h1  {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 375%;
@@ -482,9 +639,6 @@ hr{
 }
 
 @media (max-width: 730px) {
-  .about-pic{
-    display: none;
-  }
   .about-content{
     width: 100vw;
   }
